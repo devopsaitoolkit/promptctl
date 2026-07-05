@@ -1,6 +1,12 @@
 # promptctl
 
+[![Docs & API](https://img.shields.io/badge/docs%20%26%20API-devopsaitoolkit.com-7c8cff)](https://devopsaitoolkit.com/developers/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-3fb950)](LICENSE)
+[![Dependencies: 0](https://img.shields.io/badge/dependencies-0-3fb950)](pyproject.toml)
+
 A tiny command-line tool (and Python SDK) for querying the **[DevOps AI ToolKit](https://devopsaitoolkit.com) prompt library** — search, filter, and print production-ready DevOps/SRE AI prompts straight from your terminal, ready to paste into Claude, ChatGPT, or Cursor.
+
+**Docs & the underlying API:** https://devopsaitoolkit.com/developers/
 
 - **Zero dependencies** — pure Python standard library. `pip install promptctl` pulls nothing else.
 - **Fast + offline-friendly** — the API is static JSON; responses are cached locally with a TTL, so repeat queries are instant and work offline after the first fetch.
